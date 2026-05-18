@@ -1,0 +1,12 @@
+---
+triple:          'arm64-apple-darwin'
+binary-path:     '/Users/mengchengxi/Documents/code/C++C/competition/C. XOR-factorization'
+relocations:
+  - { offset: 0x16CAB, size: 0x8, addend: 0x0, symName: __ZStL8__ioinit, symObjAddr: 0x64ABA, symBinAddr: 0x100008000, symSize: 0x0 }
+  - { offset: 0x16D94, size: 0x8, addend: 0x0, symName: __ZL3INF, symObjAddr: 0x194, symBinAddr: 0x100000940, symSize: 0x0 }
+  - { offset: 0x16DAA, size: 0x8, addend: 0x0, symName: __ZL3mod, symObjAddr: 0x198, symBinAddr: 0x100000944, symSize: 0x0 }
+  - { offset: 0x16F4C, size: 0x8, addend: 0x0, symName: __GLOBAL__sub_I_C._XOR_factorization.cpp, symObjAddr: 0x1E8, symBinAddr: 0x1000008C8, symSize: 0x14 }
+  - { offset: 0x16F63, size: 0x8, addend: 0x0, symName: __Z41__static_initialization_and_destruction_0v, symObjAddr: 0x1AC, symBinAddr: 0x10000088C, symSize: 0x3C }
+  - { offset: 0x16F81, size: 0x8, addend: 0x0, symName: _main, symObjAddr: 0x124, symBinAddr: 0x10000081C, symSize: 0x70 }
+  - { offset: 0x16FAF, size: 0x8, addend: 0x0, symName: __Z5solvev, symObjAddr: 0x0, symBinAddr: 0x1000006F8, symSize: 0x124 }
+...
