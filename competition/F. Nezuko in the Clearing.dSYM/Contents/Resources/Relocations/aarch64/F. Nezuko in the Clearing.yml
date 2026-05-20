@@ -1,0 +1,13 @@
+---
+triple:          'arm64-apple-darwin'
+binary-path:     '/Users/mengchengxi/Documents/code/C++C/competition/F. Nezuko in the Clearing'
+relocations:
+  - { offset: 0x16CAB, size: 0x8, addend: 0x0, symName: __ZStL8__ioinit, symObjAddr: 0x64B64, symBinAddr: 0x100008000, symSize: 0x0 }
+  - { offset: 0x16D94, size: 0x8, addend: 0x0, symName: __ZL3INF, symObjAddr: 0x228, symBinAddr: 0x100000978, symSize: 0x0 }
+  - { offset: 0x16DAA, size: 0x8, addend: 0x0, symName: __ZL3mod, symObjAddr: 0x22C, symBinAddr: 0x10000097C, symSize: 0x0 }
+  - { offset: 0x16F4C, size: 0x8, addend: 0x0, symName: __GLOBAL__sub_I_F._Nezuko_in_the_Clearing.cpp, symObjAddr: 0x274, symBinAddr: 0x10000090C, symSize: 0x14 }
+  - { offset: 0x16F63, size: 0x8, addend: 0x0, symName: __Z41__static_initialization_and_destruction_0v, symObjAddr: 0x238, symBinAddr: 0x1000008D0, symSize: 0x3C }
+  - { offset: 0x16F81, size: 0x8, addend: 0x0, symName: _main, symObjAddr: 0x1B8, symBinAddr: 0x100000860, symSize: 0x70 }
+  - { offset: 0x16FAF, size: 0x8, addend: 0x0, symName: __Z5solvev, symObjAddr: 0xC0, symBinAddr: 0x100000768, symSize: 0xF8 }
+  - { offset: 0x1702F, size: 0x8, addend: 0x0, symName: __Z13health_neededii, symObjAddr: 0x0, symBinAddr: 0x1000006A8, symSize: 0xC0 }
+...

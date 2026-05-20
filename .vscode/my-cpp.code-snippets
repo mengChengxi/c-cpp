@@ -185,6 +185,47 @@
     ],
     "description": "带随机种子的安全 unordered_map (防 Hack)"
   },
+
+  "DSU with Size": {
+    "prefix": "dsu",
+    "body": [
+      "struct DSU {",
+      "    vector<int> parent;",
+      "    vector<int> sz;",
+      "    int max_size;",
+      "",
+      "    DSU(int n) {",
+      "        parent.resize(n + 1);",
+      "        sz.assign(n + 1, 1);",
+      "        iota(parent.begin(), parent.end(), 0);",
+      "        max_size = 1;",
+      "    }",
+      "",
+      "    int find(int i) {",
+      "        if (parent[i] == i) return i;",
+      "        return parent[i] = find(parent[i]);",
+      "    }",
+      "",
+      "    bool unite(int i, int j) {",
+      "        int root_i = find(i);",
+      "        int root_j = find(j);",
+      "        if (root_i != root_j) {",
+      "            if (sz[root_i] < sz[root_j]) swap(root_i, root_j);",
+      "            parent[root_j] = root_i;",
+      "            sz[root_i] += sz[root_j];",
+      "            max_size = max(max_size, sz[root_i]);",
+      "            return true;",
+      "        }",
+      "        return false;",
+      "    }",
+      "",
+      "    int getSize(int i) {",
+      "        return sz[find(i)];",
+      "    }",
+      "};$0"
+    ],
+    "description": "带集合大小 (sz) 和最大连通块 (max_size) 维护的并查集模板"
+  },
   "Compare Method": {
     "prefix": "compare",
     "body": [
