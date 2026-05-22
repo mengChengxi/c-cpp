@@ -1,0 +1,12 @@
+---
+triple:          'arm64-apple-darwin'
+binary-path:     '/Users/mengchengxi/Documents/code/C++C/competition/B - Uninteresting Number'
+relocations:
+  - { offset: 0x16CB7, size: 0x8, addend: 0x0, symName: __ZStL8__ioinit, symObjAddr: 0x6524A, symBinAddr: 0x100008000, symSize: 0x0 }
+  - { offset: 0x16DA0, size: 0x8, addend: 0x0, symName: __ZL3INF, symObjAddr: 0x4CC, symBinAddr: 0x100000D04, symSize: 0x0 }
+  - { offset: 0x16DB6, size: 0x8, addend: 0x0, symName: __ZL3mod, symObjAddr: 0x4D0, symBinAddr: 0x100000D08, symSize: 0x0 }
+  - { offset: 0x16F58, size: 0x8, addend: 0x0, symName: __GLOBAL__sub_I_B___Uninteresting_Number.cpp, symObjAddr: 0x538, symBinAddr: 0x100000C50, symSize: 0x14 }
+  - { offset: 0x16F6F, size: 0x8, addend: 0x0, symName: __Z41__static_initialization_and_destruction_0v, symObjAddr: 0x4FC, symBinAddr: 0x100000C14, symSize: 0x3C }
+  - { offset: 0x16F8D, size: 0x8, addend: 0x0, symName: _main, symObjAddr: 0x45C, symBinAddr: 0x100000BA4, symSize: 0x70 }
+  - { offset: 0x16FBB, size: 0x8, addend: 0x0, symName: __Z5solvev, symObjAddr: 0x0, symBinAddr: 0x100000748, symSize: 0x45C }
+...

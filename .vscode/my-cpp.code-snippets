@@ -185,6 +185,53 @@
     ],
     "description": "带随机种子的安全 unordered_map (防 Hack)"
   },
+  "Fast Power and Mod Inverse": {
+    "prefix": "fast power and mod inverse",
+    "body": [
+      "long long fastPower(long long base, long long exp) {",
+      "    long long res = 1;",
+      "    base %= mod;",
+      "    while (exp > 0) {",
+      "        if (exp % 2 == 1) res = (res * base) % mod;",
+      "        base = (base * base) % mod;",
+      "        exp /= 2;",
+      "    }",
+      "    return res;",
+      "}",
+      "",
+      "long long modInverse(long long n) {",
+      "    return fastPower(n, mod - 2);",
+      "}$0"
+    ],
+    "description": "快速幂与基于费马小定理的模逆元模板"
+  },
+  "Combinatorics Precomputation": {
+    "prefix": "comb",
+    "body": [
+      "const int MAXN = 2e5 + 5;",
+      "long long fact[MAXN], invFact[MAXN];",
+      "",
+      "void precompute(int n) {",
+      "    fact[0] = 1;",
+      "    invFact[0] = 1;",
+      "    for (int i = 1; i <= n; i++) {",
+      "        fact[i] = (fact[i - 1] * i) % mod;",
+      "    }",
+      "    invFact[n] = fastPower(fact[n], mod - 2);",
+      "    for (int i = n - 1; i >= 1; i--) {",
+      "        invFact[i] = (invFact[i + 1] * (i + 1)) % mod;",
+      "    }",
+      "}",
+      "",
+      "long long nCr(int n, int m) {",
+      "    if (m < 0 || m > n) return 0;  n选m",
+      "    long long num = fact[n];",
+      "    long long den = (invFact[m] * invFact[n - m]) % mod;",
+      "    return (num * den) % mod;",
+      "}$0"
+    ],
+    "description": "组合数学预处理（阶乘与逆元阶乘）及 O(1) 组合数查询模板"
+  },
 
   "DSU with Size": {
     "prefix": "dsu",
