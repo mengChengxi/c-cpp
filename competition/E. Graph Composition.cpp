@@ -6,17 +6,44 @@ const int mod = 1e9 + 7;
 #define mkp make_pair
 
 
-struct PairHash {
-    template <class T1, class T2>
-    std::size_t operator()(const std::pair<T1, T2>& p) const {
-        // 使用 XOR 组合哈希值（简单但容易冲突，工程中建议使用更高级的组合方法）
-        auto h1 = std::hash<T1>{}(p.first);
-        auto h2 = std::hash<T2>{}(p.second);
-        return h1 ^ (h2 << 1); // 左移一位可以减少对称冲突
+
+struct DSU {
+    vector<int> parent;
+    vector<int> sz;
+    int max_size;
+    int compents;
+
+    DSU(int n) {
+        parent.resize(n + 1);
+        sz.assign(n + 1, 1);
+        iota(parent.begin(), parent.end(), 0);
+        max_size = 1;
+        compents=n;
+    }
+
+    int find(int i) {
+        if (parent[i] == i) return i;
+        return parent[i] = find(parent[i]);
+    }
+
+    bool unite(int i, int j) {
+        int root_i = find(i);
+        int root_j = find(j);
+        if (root_i != root_j) {
+            if (sz[root_i] < sz[root_j]) swap(root_i, root_j);
+            parent[root_j] = root_i;
+            sz[root_i] += sz[root_j];
+            max_size = max(max_size, sz[root_i]);
+            compents--;
+            return true;
+        }
+        return false;
+    }
+
+    int getSize(int i) {
+        return sz[find(i)];
     }
 };
-
-
 
 
 void solve() {
@@ -26,45 +53,36 @@ void solve() {
 
     cin>>n>>m1>>m2;
 
+    DSU f(n);
+    DSU g(n);
 
-
-    unordered_map<std::pair<int, int>, std::string, PairHash> mp;
-    mp.reserve(m1+m2);
-    
-    for(int i=0; i<m1; i++){
-        int s,t;
-        cin>>s>>t;
-        if(s>t){
-            mp[{s,t}]=1;
-        }else{
-            mp[{t,s}]=1;
-        }
-        
-        
+    vector<pair<int, int>> edges_F(m1);
+    for(int i = 0; i < m1; i++){
+        cin >> edges_F[i].first >> edges_F[i].second;
     }
-    int common=0;
+
     for(int i=0; i<m2; i++){
         int s,t;
         cin>>s>>t;
 
-        if(s>t){
-            if(mp.count({s,t})==1){
-                common++;
-            }
-        }else{
-            if(mp.count({t,s})==1){
-                common++;
-            }
-        } 
-
-
+        g.unite(s, t);
     }
 
-    cout<<m1+m2-common-common<<endl;
+    int mustdelete=0;
+    for(int i=0; i<m1; i++){
+        int s=edges_F[i].first;
+        int t=edges_F[i].second;
 
+        if(g.find(s)!=g.find(t)){
+            mustdelete++;
+        }else{
+            f.unite(s, t);
+        }
+    }
 
+    cout<<mustdelete+f.compents-g.compents<<endl;
 
-
+    
 
 
     

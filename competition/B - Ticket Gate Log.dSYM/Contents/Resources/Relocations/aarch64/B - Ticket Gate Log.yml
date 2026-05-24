@@ -1,0 +1,12 @@
+---
+triple:          'arm64-apple-darwin'
+binary-path:     '/Users/mengchengxi/Documents/code/C++C/competition/B - Ticket Gate Log'
+relocations:
+  - { offset: 0x16CB7, size: 0x8, addend: 0x0, symName: __ZStL8__ioinit, symObjAddr: 0x64C96, symBinAddr: 0x100008000, symSize: 0x0 }
+  - { offset: 0x16DA0, size: 0x8, addend: 0x0, symName: __ZL3INF, symObjAddr: 0x1D8, symBinAddr: 0x1000009B4, symSize: 0x0 }
+  - { offset: 0x16DB6, size: 0x8, addend: 0x0, symName: __ZL3mod, symObjAddr: 0x1DC, symBinAddr: 0x1000009B8, symSize: 0x0 }
+  - { offset: 0x16F58, size: 0x8, addend: 0x0, symName: __GLOBAL__sub_I_B___Ticket_Gate_Log.cpp, symObjAddr: 0x234, symBinAddr: 0x10000090C, symSize: 0x14 }
+  - { offset: 0x16F6F, size: 0x8, addend: 0x0, symName: __Z41__static_initialization_and_destruction_0v, symObjAddr: 0x1F8, symBinAddr: 0x1000008D0, symSize: 0x3C }
+  - { offset: 0x16F8D, size: 0x8, addend: 0x0, symName: _main, symObjAddr: 0x1A4, symBinAddr: 0x10000089C, symSize: 0x34 }
+  - { offset: 0x16FB8, size: 0x8, addend: 0x0, symName: __Z5solvev, symObjAddr: 0x0, symBinAddr: 0x1000006F8, symSize: 0x1A4 }
+...
