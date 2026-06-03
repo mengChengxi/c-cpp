@@ -1,0 +1,20 @@
+---
+triple:          'arm64-apple-darwin'
+binary-path:     '/Users/mengchengxi/Documents/code/C++C/competition/F. Goodbye, Banker Life'
+relocations:
+  - { offset: 0x16CAB, size: 0x8, addend: 0x0, symName: __ZStL8__ioinit, symObjAddr: 0x65565, symBinAddr: 0x100008000, symSize: 0x0 }
+  - { offset: 0x16D94, size: 0x8, addend: 0x0, symName: __ZL3INF, symObjAddr: 0x574, symBinAddr: 0x100000D70, symSize: 0x0 }
+  - { offset: 0x16DAA, size: 0x8, addend: 0x0, symName: __ZL3mod, symObjAddr: 0x578, symBinAddr: 0x100000D74, symSize: 0x0 }
+  - { offset: 0x16DC0, size: 0x8, addend: 0x0, symName: __ZL4MAXP, symObjAddr: 0x57C, symBinAddr: 0x100000D78, symSize: 0x0 }
+  - { offset: 0x16DE5, size: 0x8, addend: 0x0, symName: _lucas_fac, symObjAddr: 0x65568, symBinAddr: 0x100008008, symSize: 0x0 }
+  - { offset: 0x16DFB, size: 0x8, addend: 0x0, symName: _lucas_invFac, symObjAddr: 0x128A90, symBinAddr: 0x1000CB530, symSize: 0x0 }
+  - { offset: 0x16F9D, size: 0x8, addend: 0x0, symName: __GLOBAL__sub_I_F._Goodbye__Banker_Life.cpp, symObjAddr: 0x5C8, symBinAddr: 0x100000CF8, symSize: 0x14 }
+  - { offset: 0x16FB4, size: 0x8, addend: 0x0, symName: __Z41__static_initialization_and_destruction_0v, symObjAddr: 0x58C, symBinAddr: 0x100000CBC, symSize: 0x3C }
+  - { offset: 0x16FD2, size: 0x8, addend: 0x0, symName: _main, symObjAddr: 0x504, symBinAddr: 0x100000C4C, symSize: 0x70 }
+  - { offset: 0x17000, size: 0x8, addend: 0x0, symName: __Z5solvev, symObjAddr: 0x408, symBinAddr: 0x100000B50, symSize: 0xFC }
+  - { offset: 0x17080, size: 0x8, addend: 0x0, symName: __Z9lucas_getxxx, symObjAddr: 0x304, symBinAddr: 0x100000A4C, symSize: 0x104 }
+  - { offset: 0x170D3, size: 0x8, addend: 0x0, symName: __Z7lucas_Cxxx, symObjAddr: 0x23C, symBinAddr: 0x100000984, symSize: 0xC8 }
+  - { offset: 0x17122, size: 0x8, addend: 0x0, symName: __Z10lucas_initi, symObjAddr: 0xE0, symBinAddr: 0x100000828, symSize: 0x15C }
+  - { offset: 0x17197, size: 0x8, addend: 0x0, symName: __Z9lucas_invxx, symObjAddr: 0xB0, symBinAddr: 0x1000007F8, symSize: 0x30 }
+  - { offset: 0x171DA, size: 0x8, addend: 0x0, symName: __Z10lucas_qpowxxx, symObjAddr: 0x0, symBinAddr: 0x100000748, symSize: 0xB0 }
+...

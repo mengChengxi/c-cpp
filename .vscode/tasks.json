@@ -24,6 +24,9 @@
             "args": [
                 "-std=c++17",
                 "-g",
+                // "-fsanitize=address",
+                // "-fno-omit-frame-pointer",
+                "-D_GLIBCXX_DEBUG",
                 "${file}",
                 "-o",
                 "${fileDirname}/${fileBasenameNoExtension}"

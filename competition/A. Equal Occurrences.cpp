@@ -22,7 +22,7 @@ void solve() {
 
     int longest=0;
     for(int i=0; i<map.size(); i++){
-        int c=0;
+        int c;
         for(int j=0; j<map.size(); j++){
             
             if(map[j]>=map[i]){
