@@ -1,0 +1,19 @@
+---
+triple:          'arm64-apple-darwin'
+binary-path:     '/Users/mengchengxi/Documents/code/C++C/competition/Distributing Apples'
+relocations:
+  - { offset: 0x16CD1, size: 0x8, addend: 0x0, symName: __ZStL8__ioinit, symObjAddr: 0x65200, symBinAddr: 0x100008000, symSize: 0x0 }
+  - { offset: 0x16DBA, size: 0x8, addend: 0x0, symName: __ZL3INF, symObjAddr: 0x4D4, symBinAddr: 0x100000C74, symSize: 0x0 }
+  - { offset: 0x16DD0, size: 0x8, addend: 0x0, symName: __ZL3mod, symObjAddr: 0x4D8, symBinAddr: 0x100000C78, symSize: 0x0 }
+  - { offset: 0x16DE6, size: 0x8, addend: 0x0, symName: __ZL3MOD, symObjAddr: 0x4DC, symBinAddr: 0x100000C7C, symSize: 0x0 }
+  - { offset: 0x16DFC, size: 0x8, addend: 0x0, symName: __ZL4MAXN, symObjAddr: 0x4E0, symBinAddr: 0x100000C80, symSize: 0x0 }
+  - { offset: 0x16E21, size: 0x8, addend: 0x0, symName: _fac, symObjAddr: 0x65208, symBinAddr: 0x100008008, symSize: 0x0 }
+  - { offset: 0x16E37, size: 0x8, addend: 0x0, symName: _invFac, symObjAddr: 0xFA7630, symBinAddr: 0x100F4A430, symSize: 0x0 }
+  - { offset: 0x16FEA, size: 0x8, addend: 0x0, symName: __GLOBAL__sub_I_Distributing_Apples.cpp, symObjAddr: 0x528, symBinAddr: 0x100000C08, symSize: 0x14 }
+  - { offset: 0x17001, size: 0x8, addend: 0x0, symName: __Z41__static_initialization_and_destruction_0v, symObjAddr: 0x4EC, symBinAddr: 0x100000BCC, symSize: 0x3C }
+  - { offset: 0x1701F, size: 0x8, addend: 0x0, symName: _main, symObjAddr: 0x4A0, symBinAddr: 0x100000B98, symSize: 0x34 }
+  - { offset: 0x1703D, size: 0x8, addend: 0x0, symName: __Z5solvev, symObjAddr: 0x418, symBinAddr: 0x100000B10, symSize: 0x88 }
+  - { offset: 0x1707E, size: 0x8, addend: 0x0, symName: __Z1Cxx, symObjAddr: 0x2F0, symBinAddr: 0x1000009E8, symSize: 0x128 }
+  - { offset: 0x170BB, size: 0x8, addend: 0x0, symName: __Z9init_combv, symObjAddr: 0x13C, symBinAddr: 0x100000834, symSize: 0x1B4 }
+  - { offset: 0x17120, size: 0x8, addend: 0x0, symName: __Z4qpowxx, symObjAddr: 0x0, symBinAddr: 0x1000006F8, symSize: 0x13C }
+...
