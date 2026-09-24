@@ -1,0 +1,12 @@
+---
+triple:          'arm64-apple-darwin'
+binary-path:     '/Users/mengchengxi/Documents/code/C++C/competition/A. Zero Sum'
+relocations:
+  - { offset: 0x16CD1, size: 0x8, addend: 0x0, symName: __ZStL8__ioinit, symObjAddr: 0x64AE3, symBinAddr: 0x100008000, symSize: 0x0 }
+  - { offset: 0x16DBA, size: 0x8, addend: 0x0, symName: __ZL3INF, symObjAddr: 0x138, symBinAddr: 0x1000008D8, symSize: 0x0 }
+  - { offset: 0x16DD0, size: 0x8, addend: 0x0, symName: __ZL3mod, symObjAddr: 0x13C, symBinAddr: 0x1000008DC, symSize: 0x0 }
+  - { offset: 0x16F83, size: 0x8, addend: 0x0, symName: __GLOBAL__sub_I_A._Zero_Sum.cpp, symObjAddr: 0x190, symBinAddr: 0x10000086C, symSize: 0x14 }
+  - { offset: 0x16F9A, size: 0x8, addend: 0x0, symName: __Z41__static_initialization_and_destruction_0v, symObjAddr: 0x154, symBinAddr: 0x100000830, symSize: 0x3C }
+  - { offset: 0x16FB8, size: 0x8, addend: 0x0, symName: _main, symObjAddr: 0xC8, symBinAddr: 0x1000007C0, symSize: 0x70 }
+  - { offset: 0x16FE6, size: 0x8, addend: 0x0, symName: __Z5solvev, symObjAddr: 0x0, symBinAddr: 0x1000006F8, symSize: 0xC8 }
+...

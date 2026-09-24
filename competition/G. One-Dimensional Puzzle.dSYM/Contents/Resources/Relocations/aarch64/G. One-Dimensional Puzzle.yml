@@ -1,0 +1,22 @@
+---
+triple:          'arm64-apple-darwin'
+binary-path:     '/Users/mengchengxi/Documents/code/C++C/competition/G. One-Dimensional Puzzle'
+relocations:
+  - { offset: 0x16CD1, size: 0x8, addend: 0x0, symName: __ZStL8__ioinit, symObjAddr: 0x65BAA, symBinAddr: 0x100008000, symSize: 0x0 }
+  - { offset: 0x16DBA, size: 0x8, addend: 0x0, symName: __ZL3INF, symObjAddr: 0x960, symBinAddr: 0x100001118, symSize: 0x0 }
+  - { offset: 0x16DD0, size: 0x8, addend: 0x0, symName: __ZL3mod, symObjAddr: 0x964, symBinAddr: 0x10000111C, symSize: 0x0 }
+  - { offset: 0x16DE6, size: 0x8, addend: 0x0, symName: __ZL3MOD, symObjAddr: 0x968, symBinAddr: 0x100001120, symSize: 0x0 }
+  - { offset: 0x16DFC, size: 0x8, addend: 0x0, symName: __ZL4MAXN, symObjAddr: 0x96C, symBinAddr: 0x100001124, symSize: 0x0 }
+  - { offset: 0x16E21, size: 0x8, addend: 0x0, symName: _fac, symObjAddr: 0x65BB0, symBinAddr: 0x100008008, symSize: 0x0 }
+  - { offset: 0x16E37, size: 0x8, addend: 0x0, symName: _invFac, symObjAddr: 0xFA7FD8, symBinAddr: 0x100F4A430, symSize: 0x0 }
+  - { offset: 0x16FEA, size: 0x8, addend: 0x0, symName: __GLOBAL__sub_I_G._One_Dimensional_Puzzle.cpp, symObjAddr: 0x9B4, symBinAddr: 0x100001094, symSize: 0x14 }
+  - { offset: 0x17001, size: 0x8, addend: 0x0, symName: __Z41__static_initialization_and_destruction_0v, symObjAddr: 0x978, symBinAddr: 0x100001058, symSize: 0x3C }
+  - { offset: 0x1701F, size: 0x8, addend: 0x0, symName: _main, symObjAddr: 0x8EC, symBinAddr: 0x100000FE4, symSize: 0x74 }
+  - { offset: 0x1704D, size: 0x8, addend: 0x0, symName: __Z5solvev, symObjAddr: 0x59C, symBinAddr: 0x100000C94, symSize: 0x350 }
+  - { offset: 0x17103, size: 0x8, addend: 0x0, symName: __Z6choosexx, symObjAddr: 0x550, symBinAddr: 0x100000C48, symSize: 0x4C }
+  - { offset: 0x17144, size: 0x8, addend: 0x0, symName: __Z10modInversex, symObjAddr: 0x530, symBinAddr: 0x100000C28, symSize: 0x20 }
+  - { offset: 0x17176, size: 0x8, addend: 0x0, symName: __Z9fastPowerxx, symObjAddr: 0x3F0, symBinAddr: 0x100000AE8, symSize: 0x140 }
+  - { offset: 0x171C6, size: 0x8, addend: 0x0, symName: __Z1Cxx, symObjAddr: 0x2D0, symBinAddr: 0x1000009C8, symSize: 0x120 }
+  - { offset: 0x17203, size: 0x8, addend: 0x0, symName: __Z9init_combv, symObjAddr: 0x130, symBinAddr: 0x100000828, symSize: 0x1A0 }
+  - { offset: 0x17268, size: 0x8, addend: 0x0, symName: __Z4qpowxx, symObjAddr: 0x0, symBinAddr: 0x1000006F8, symSize: 0x130 }
+...

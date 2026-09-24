@@ -1,0 +1,12 @@
+---
+triple:          'arm64-apple-darwin'
+binary-path:     '/Users/mengchengxi/Documents/code/C++C/competition/Counting Bits'
+relocations:
+  - { offset: 0x16CD1, size: 0x8, addend: 0x0, symName: __ZStL8__ioinit, symObjAddr: 0x64AE2, symBinAddr: 0x100008000, symSize: 0x0 }
+  - { offset: 0x16DBA, size: 0x8, addend: 0x0, symName: __ZL3INF, symObjAddr: 0x184, symBinAddr: 0x1000008D4, symSize: 0x0 }
+  - { offset: 0x16DD0, size: 0x8, addend: 0x0, symName: __ZL3mod, symObjAddr: 0x188, symBinAddr: 0x1000008D8, symSize: 0x0 }
+  - { offset: 0x16F83, size: 0x8, addend: 0x0, symName: __GLOBAL__sub_I_Counting_Bits.cpp, symObjAddr: 0x1D0, symBinAddr: 0x100000868, symSize: 0x14 }
+  - { offset: 0x16F9A, size: 0x8, addend: 0x0, symName: __Z41__static_initialization_and_destruction_0v, symObjAddr: 0x194, symBinAddr: 0x10000082C, symSize: 0x3C }
+  - { offset: 0x16FB8, size: 0x8, addend: 0x0, symName: _main, symObjAddr: 0x150, symBinAddr: 0x1000007F8, symSize: 0x34 }
+  - { offset: 0x16FD6, size: 0x8, addend: 0x0, symName: __Z5solvev, symObjAddr: 0x0, symBinAddr: 0x1000006A8, symSize: 0x150 }
+...

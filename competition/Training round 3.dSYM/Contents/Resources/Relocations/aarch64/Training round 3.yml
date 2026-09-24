@@ -1,0 +1,21 @@
+---
+triple:          'arm64-apple-darwin'
+binary-path:     '/Users/mengchengxi/Documents/code/C++C/competition/Training round 3'
+relocations:
+  - { offset: 0x16CD1, size: 0x8, addend: 0x0, symName: __ZStL8__ioinit, symObjAddr: 0x65871, symBinAddr: 0x100008000, symSize: 0x0 }
+  - { offset: 0x16DBA, size: 0x8, addend: 0x0, symName: __ZL3INF, symObjAddr: 0x858, symBinAddr: 0x100001004, symSize: 0x0 }
+  - { offset: 0x16DD0, size: 0x8, addend: 0x0, symName: __ZL3mod, symObjAddr: 0x85C, symBinAddr: 0x100001008, symSize: 0x0 }
+  - { offset: 0x16DE6, size: 0x8, addend: 0x0, symName: __ZL3MOD, symObjAddr: 0x860, symBinAddr: 0x10000100C, symSize: 0x0 }
+  - { offset: 0x16DFC, size: 0x8, addend: 0x0, symName: __ZL4MAXN, symObjAddr: 0x864, symBinAddr: 0x100001010, symSize: 0x0 }
+  - { offset: 0x16E21, size: 0x8, addend: 0x0, symName: _fac, symObjAddr: 0x65878, symBinAddr: 0x100008008, symSize: 0x0 }
+  - { offset: 0x16E37, size: 0x8, addend: 0x0, symName: _invFac, symObjAddr: 0x4CB0CA0, symBinAddr: 0x104C53430, symSize: 0x0 }
+  - { offset: 0x16FEA, size: 0x8, addend: 0x0, symName: __GLOBAL__sub_I_Training_round_3.cpp, symObjAddr: 0x8AC, symBinAddr: 0x100000F8C, symSize: 0x14 }
+  - { offset: 0x17001, size: 0x8, addend: 0x0, symName: __Z41__static_initialization_and_destruction_0v, symObjAddr: 0x870, symBinAddr: 0x100000F50, symSize: 0x3C }
+  - { offset: 0x1701F, size: 0x8, addend: 0x0, symName: _main, symObjAddr: 0x820, symBinAddr: 0x100000F18, symSize: 0x38 }
+  - { offset: 0x1703D, size: 0x8, addend: 0x0, symName: __Z5solvev, symObjAddr: 0x560, symBinAddr: 0x100000C58, symSize: 0x2C0 }
+  - { offset: 0x170FC, size: 0x8, addend: 0x0, symName: __Z1Cxx, symObjAddr: 0x440, symBinAddr: 0x100000B38, symSize: 0x120 }
+  - { offset: 0x17139, size: 0x8, addend: 0x0, symName: __Z9init_combv, symObjAddr: 0x290, symBinAddr: 0x100000988, symSize: 0x1B0 }
+  - { offset: 0x1719E, size: 0x8, addend: 0x0, symName: __Z4qpowxx, symObjAddr: 0x160, symBinAddr: 0x100000858, symSize: 0x130 }
+  - { offset: 0x171EE, size: 0x8, addend: 0x0, symName: __Z10modInversex, symObjAddr: 0x140, symBinAddr: 0x100000838, symSize: 0x20 }
+  - { offset: 0x17220, size: 0x8, addend: 0x0, symName: __Z9fastPowerxx, symObjAddr: 0x0, symBinAddr: 0x1000006F8, symSize: 0x140 }
+...
