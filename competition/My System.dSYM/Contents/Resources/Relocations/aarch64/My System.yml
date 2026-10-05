@@ -1,0 +1,18 @@
+---
+triple:          'arm64-apple-darwin'
+binary-path:     '/Users/mengchengxi/Documents/code/C++C/competition/My System'
+relocations:
+  - { offset: 0x16DCB, size: 0x8, addend: 0x0, symName: __ZStL8__ioinit, symObjAddr: 0x65768, symBinAddr: 0x100008000, symSize: 0x0 }
+  - { offset: 0x16EB9, size: 0x8, addend: 0x0, symName: __ZL3INF, symObjAddr: 0x334, symBinAddr: 0x100000B1C, symSize: 0x0 }
+  - { offset: 0x16ECF, size: 0x8, addend: 0x0, symName: __ZL3mod, symObjAddr: 0x338, symBinAddr: 0x100000B20, symSize: 0x0 }
+  - { offset: 0x16EE5, size: 0x8, addend: 0x0, symName: _i, symObjAddr: 0x65780, symBinAddr: 0x100008018, symSize: 0x0 }
+  - { offset: 0x170B5, size: 0x8, addend: 0x0, symName: __GLOBAL__sub_I_My_System.cpp, symObjAddr: 0x380, symBinAddr: 0x100000A68, symSize: 0x14 }
+  - { offset: 0x170CC, size: 0x8, addend: 0x0, symName: __Z41__static_initialization_and_destruction_0v, symObjAddr: 0x344, symBinAddr: 0x100000A2C, symSize: 0x3C }
+  - { offset: 0x170E7, size: 0x8, addend: 0x0, symName: __ZNKSt6chrono10time_pointINS_3_V212steady_clockENS_8durationIxSt5ratioILl1ELl1000000000EEEEE16time_since_epochEv, symObjAddr: 0x31C, symBinAddr: 0x100000A14, symSize: 0x18 }
+  - { offset: 0x17112, size: 0x8, addend: 0x0, symName: _main, symObjAddr: 0x2AC, symBinAddr: 0x1000009A4, symSize: 0x70 }
+  - { offset: 0x17140, size: 0x8, addend: 0x0, symName: __Z5solvev, symObjAddr: 0x154, symBinAddr: 0x10000084C, symSize: 0x158 }
+  - { offset: 0x171B4, size: 0x8, addend: 0x0, symName: __Z3rany, symObjAddr: 0xA4, symBinAddr: 0x10000079C, symSize: 0xB0 }
+  - { offset: 0x171E3, size: 0x8, addend: 0x0, symName: __ZZ3ranyE12FIXED_RANDOM, symObjAddr: 0x65770, symBinAddr: 0x100008008, symSize: 0x0 }
+  - { offset: 0x171F9, size: 0x8, addend: 0x0, symName: __ZL10splitmix64y, symObjAddr: 0x18, symBinAddr: 0x100000710, symSize: 0x8C }
+  - { offset: 0x17224, size: 0x8, addend: 0x0, symName: __ZNKSt6chrono8durationIxSt5ratioILl1ELl1000000000EEE5countEv, symObjAddr: 0x0, symBinAddr: 0x1000006F8, symSize: 0x18 }
+...

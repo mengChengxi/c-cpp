@@ -1,0 +1,29 @@
+
+function ifExistTriangle(adjacency_matrix,n){
+    for(int i=0; i<n; i++){
+        for(int j=0; j<n; j++){
+            for(int k=0; k<n; k++){
+                if(adjacency_matrix[i][j]==1 &&
+                adjacency_matrix[i][k]==1 &&
+                adjacency_matrix[j][k]==1 ){
+                    return True;
+                }
+                
+            }
+        }
+    }
+    return False;
+}
+
+
+Runtime analysis:
+Time conplexity O(n^3): Because there are 3 loops nested together. The inner loop runs for n times per one index change in the middle loop. The middle loop will run n*n times per one index change in the outer loop. The outer runs n times. Therefore, in total, the algorithm will run the if statement for n^3 times.
+
+
+It is correct, Because if there exists such a path, the algorithm will output true and if there does not exist such a path, the algorithm will output false.
+
+1. If there exists such a path, the algorithm will output true.
+Proof: All the edges in the path will not be removed. Therefore, there exists a path in G' connecting s t,and the graph search algorithm will find it.
+
+2. If there does not exist such a path, the algorithm will output false.
+Proof, prove the contrapositive: If the algorithm will output true, then there exist such a path. The algorithm's output true means that there is a path in G'. All the paths in G' are non-decreasing. Therefore, there is a path in G that is a non-decreasing sequence.
